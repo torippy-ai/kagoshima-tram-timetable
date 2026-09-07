@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # このワークフローから「Deploy to GitHub Pages」を起動するために必要
 
 jobs:
   scrape:
@@ -25,13 +26,25 @@ jobs:
       - run: npm run scrape
 
       - name: Commit updated data if changed
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/lines.json src/data/timetable/
           if git diff --cached --quiet; then
             echo "No data changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore: update tram timetable data"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # GitHub Actions の仕様上、ワークフロー自身が push しても
+      # 別のワークフロー（Deploy to GitHub Pages）の on: push は自動発火しないため、
+      # データに変更があった場合はここから明示的に Deploy を起動する。
+      - name: Trigger deploy workflow
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
