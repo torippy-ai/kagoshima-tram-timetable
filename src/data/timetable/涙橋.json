@@ -1,0 +1,123 @@
+{
+  "stop": "涙橋",
+  "rosenId": "1820,1821",
+  "directions": {
+    "谷山行き": {
+      "平日": [
+        {
+          "time": "05:41",
+          "lowFloor": true
+        },
+        {
+          "time": "05:52",
+          "lowFloor": false
+        },
+        {
+          "time": "06:02",
+          "lowFloor": false
+        },
+        {
+          "time": "06:08",
+          "lowFloor": true
+        },
+        {
+          "time": "06:22",
+          "lowFloor": false
+        },
+        {
+          "time": "06:30",
+          "lowFloor": true
+        },
+        {
+          "time": "06:42",
+          "lowFloor": false
+        },
+        {
+          "time": "06:46",
+          "lowFloor": false
+        },
+        {
+          "time": "06:56",
+          "lowFloor": false
+        },
+        {
+          "time": "07:00",
+          "lowFloor": false
+        },
+        {
+          "time": "07:12",
+          "lowFloor": false
+        },
+        {
+          "time": "07:21",
+          "lowFloor": false
+        },
+        {
+          "time": "07:27",
+          "lowFloor": false
+        },
+        {
+          "time": "07:37",
+          "lowFloor": false
+        },
+        {
+          "time": "15:49",
+          "lowFloor": false
+        },
+        {
+          "time": "16:27",
+          "lowFloor": false
+        },
+        {
+          "time": "17:09",
+          "lowFloor": false
+        },
+        {
+          "time": "18:45",
+          "lowFloor": false
+        }
+      ],
+      "土曜": [],
+      "日祝": []
+    },
+    "鹿児島駅前行き": {
+      "平日": [
+        {
+          "time": "05:41",
+          "lowFloor": true
+        },
+        {
+          "time": "05:54",
+          "lowFloor": false
+        },
+        {
+          "time": "06:06",
+          "lowFloor": false
+        },
+        {
+          "time": "06:36",
+          "lowFloor": false
+        },
+        {
+          "time": "06:51",
+          "lowFloor": false
+        },
+        {
+          "time": "07:05",
+          "lowFloor": true
+        },
+        {
+          "time": "07:12",
+          "lowFloor": false
+        },
+        {
+          "time": "07:26",
+          "lowFloor": true
+        }
+      ],
+      "土曜": [],
+      "日祝": []
+    }
+  },
+  "fetchedAt": "2026-09-07T09:16:53.424Z"
+}

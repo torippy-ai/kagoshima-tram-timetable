@@ -1,15 +1,15 @@
 {
-  "stop": "鹿児島駅前",
+  "stop": "桜島桟橋通",
   "rosenId": "1820,1821",
   "directions": {
     "谷山行き": {
       "平日": [
         {
-          "time": "06:40",
+          "time": "06:41",
           "lowFloor": false
         },
         {
-          "time": "18:11",
+          "time": "18:12",
           "lowFloor": false
         }
       ],
@@ -24,527 +24,527 @@
     "郡元行き": {
       "平日": [
         {
-          "time": "06:05",
+          "time": "06:06",
           "lowFloor": true
         },
         {
-          "time": "06:20",
+          "time": "06:21",
           "lowFloor": false
         },
         {
-          "time": "06:32",
+          "time": "06:33",
           "lowFloor": false
         },
         {
-          "time": "06:47",
+          "time": "06:48",
           "lowFloor": true
         },
         {
-          "time": "06:56",
+          "time": "06:57",
           "lowFloor": false
         },
         {
-          "time": "07:01",
+          "time": "07:02",
           "lowFloor": false
         },
         {
-          "time": "07:07",
+          "time": "07:08",
           "lowFloor": false
         },
         {
-          "time": "07:13",
+          "time": "07:14",
           "lowFloor": false
         },
         {
-          "time": "07:19",
+          "time": "07:20",
           "lowFloor": true
         },
         {
-          "time": "07:25",
+          "time": "07:26",
           "lowFloor": false
         },
         {
-          "time": "07:31",
+          "time": "07:32",
           "lowFloor": false
         },
         {
-          "time": "07:37",
+          "time": "07:38",
           "lowFloor": false
         },
         {
-          "time": "07:43",
+          "time": "07:44",
           "lowFloor": true
         },
         {
-          "time": "07:50",
+          "time": "07:51",
           "lowFloor": false
         },
         {
-          "time": "07:57",
+          "time": "07:58",
           "lowFloor": false
         },
         {
-          "time": "08:04",
+          "time": "08:05",
           "lowFloor": true
         },
         {
-          "time": "08:10",
+          "time": "08:11",
           "lowFloor": false
         },
         {
-          "time": "08:16",
+          "time": "08:17",
           "lowFloor": false
         },
         {
-          "time": "08:23",
+          "time": "08:24",
           "lowFloor": true
         },
         {
-          "time": "08:30",
+          "time": "08:31",
           "lowFloor": false
         },
         {
-          "time": "08:37",
+          "time": "08:38",
           "lowFloor": false
         },
         {
-          "time": "08:44",
+          "time": "08:45",
           "lowFloor": false
         },
         {
-          "time": "08:51",
+          "time": "08:52",
           "lowFloor": false
         },
         {
-          "time": "08:57",
+          "time": "08:58",
           "lowFloor": true
         },
         {
-          "time": "09:05",
+          "time": "09:06",
           "lowFloor": false
         },
         {
-          "time": "09:12",
+          "time": "09:13",
           "lowFloor": true
         },
         {
-          "time": "09:19",
+          "time": "09:20",
           "lowFloor": false
         },
         {
-          "time": "09:26",
+          "time": "09:27",
           "lowFloor": false
         },
         {
-          "time": "09:33",
+          "time": "09:34",
           "lowFloor": true
         },
         {
-          "time": "09:40",
+          "time": "09:41",
           "lowFloor": false
         },
         {
-          "time": "09:47",
+          "time": "09:48",
           "lowFloor": false
         },
         {
-          "time": "09:54",
+          "time": "09:55",
           "lowFloor": false
         },
         {
-          "time": "10:01",
+          "time": "10:02",
           "lowFloor": true
         },
         {
-          "time": "10:08",
+          "time": "10:09",
           "lowFloor": false
         },
         {
-          "time": "10:15",
+          "time": "10:16",
           "lowFloor": false
         },
         {
-          "time": "10:22",
+          "time": "10:23",
           "lowFloor": false
         },
         {
-          "time": "10:29",
+          "time": "10:30",
           "lowFloor": true
         },
         {
-          "time": "10:36",
+          "time": "10:37",
           "lowFloor": false
         },
         {
-          "time": "10:43",
+          "time": "10:44",
           "lowFloor": false
         },
         {
-          "time": "10:50",
+          "time": "10:51",
           "lowFloor": true
         },
         {
-          "time": "10:57",
+          "time": "10:58",
           "lowFloor": false
         },
         {
-          "time": "11:04",
+          "time": "11:05",
           "lowFloor": false
         },
         {
-          "time": "11:11",
+          "time": "11:12",
           "lowFloor": true
         },
         {
-          "time": "11:18",
+          "time": "11:19",
           "lowFloor": false
         },
         {
-          "time": "11:25",
+          "time": "11:26",
           "lowFloor": false
         },
         {
-          "time": "11:32",
+          "time": "11:33",
           "lowFloor": true
         },
         {
-          "time": "11:39",
+          "time": "11:40",
           "lowFloor": false
         },
         {
-          "time": "11:46",
+          "time": "11:47",
           "lowFloor": false
         },
         {
-          "time": "11:53",
+          "time": "11:54",
           "lowFloor": false
         },
         {
-          "time": "12:00",
+          "time": "12:01",
           "lowFloor": true
         },
         {
-          "time": "12:07",
+          "time": "12:08",
           "lowFloor": false
         },
         {
-          "time": "12:14",
+          "time": "12:15",
           "lowFloor": true
         },
         {
-          "time": "12:21",
+          "time": "12:22",
           "lowFloor": false
         },
         {
-          "time": "12:28",
+          "time": "12:29",
           "lowFloor": false
         },
         {
-          "time": "12:35",
+          "time": "12:36",
           "lowFloor": true
         },
         {
-          "time": "12:42",
+          "time": "12:43",
           "lowFloor": false
         },
         {
-          "time": "12:49",
+          "time": "12:50",
           "lowFloor": false
         },
         {
-          "time": "12:56",
+          "time": "12:57",
           "lowFloor": false
         },
         {
-          "time": "13:03",
+          "time": "13:04",
           "lowFloor": true
         },
         {
-          "time": "13:10",
+          "time": "13:11",
           "lowFloor": false
         },
         {
-          "time": "13:17",
+          "time": "13:18",
           "lowFloor": false
         },
         {
-          "time": "13:24",
+          "time": "13:25",
           "lowFloor": false
         },
         {
-          "time": "13:31",
+          "time": "13:32",
           "lowFloor": true
         },
         {
-          "time": "13:38",
+          "time": "13:39",
           "lowFloor": false
         },
         {
-          "time": "13:45",
+          "time": "13:46",
           "lowFloor": false
         },
         {
-          "time": "13:52",
+          "time": "13:53",
           "lowFloor": true
         },
         {
-          "time": "13:59",
+          "time": "14:00",
           "lowFloor": false
         },
         {
-          "time": "14:06",
+          "time": "14:07",
           "lowFloor": false
         },
         {
-          "time": "14:13",
+          "time": "14:14",
           "lowFloor": true
         },
         {
-          "time": "14:20",
+          "time": "14:21",
           "lowFloor": false
         },
         {
-          "time": "14:27",
+          "time": "14:28",
           "lowFloor": false
         },
         {
-          "time": "14:34",
+          "time": "14:35",
           "lowFloor": true
         },
         {
-          "time": "14:41",
+          "time": "14:42",
           "lowFloor": false
         },
         {
-          "time": "14:48",
+          "time": "14:49",
           "lowFloor": false
         },
         {
-          "time": "14:55",
+          "time": "14:56",
           "lowFloor": false
         },
         {
-          "time": "15:02",
+          "time": "15:03",
           "lowFloor": true
         },
         {
-          "time": "15:09",
+          "time": "15:10",
           "lowFloor": false
         },
         {
-          "time": "15:16",
+          "time": "15:17",
           "lowFloor": true
         },
         {
-          "time": "15:23",
+          "time": "15:24",
           "lowFloor": false
         },
         {
-          "time": "15:30",
+          "time": "15:31",
           "lowFloor": false
         },
         {
-          "time": "15:36",
+          "time": "15:37",
           "lowFloor": false
         },
         {
-          "time": "15:42",
+          "time": "15:43",
           "lowFloor": true
         },
         {
-          "time": "15:48",
+          "time": "15:49",
           "lowFloor": false
         },
         {
-          "time": "15:54",
+          "time": "15:55",
           "lowFloor": false
         },
         {
-          "time": "16:00",
+          "time": "16:01",
           "lowFloor": false
         },
         {
-          "time": "16:06",
+          "time": "16:07",
           "lowFloor": true
         },
         {
-          "time": "16:12",
+          "time": "16:13",
           "lowFloor": false
         },
         {
-          "time": "16:18",
+          "time": "16:19",
           "lowFloor": false
         },
         {
-          "time": "16:24",
+          "time": "16:25",
           "lowFloor": false
         },
         {
-          "time": "16:30",
+          "time": "16:31",
           "lowFloor": false
         },
         {
-          "time": "16:36",
+          "time": "16:37",
           "lowFloor": true
         },
         {
-          "time": "16:42",
+          "time": "16:43",
           "lowFloor": false
         },
         {
-          "time": "16:48",
+          "time": "16:49",
           "lowFloor": false
         },
         {
-          "time": "16:54",
+          "time": "16:55",
           "lowFloor": true
         },
         {
-          "time": "17:00",
+          "time": "17:01",
           "lowFloor": false
         },
         {
-          "time": "17:06",
+          "time": "17:07",
           "lowFloor": false
         },
         {
-          "time": "17:12",
+          "time": "17:13",
           "lowFloor": false
         },
         {
-          "time": "17:18",
+          "time": "17:19",
           "lowFloor": true
         },
         {
-          "time": "17:24",
+          "time": "17:25",
           "lowFloor": false
         },
         {
-          "time": "17:31",
+          "time": "17:32",
           "lowFloor": false
         },
         {
-          "time": "17:38",
+          "time": "17:39",
           "lowFloor": true
         },
         {
-          "time": "17:45",
+          "time": "17:46",
           "lowFloor": false
         },
         {
-          "time": "17:51",
+          "time": "17:52",
           "lowFloor": false
         },
         {
-          "time": "17:57",
+          "time": "17:58",
           "lowFloor": false
         },
         {
-          "time": "18:05",
+          "time": "18:06",
           "lowFloor": false
         },
         {
-          "time": "18:16",
+          "time": "18:17",
           "lowFloor": false
         },
         {
-          "time": "18:22",
+          "time": "18:23",
           "lowFloor": false
         },
         {
-          "time": "18:28",
+          "time": "18:29",
           "lowFloor": true
         },
         {
-          "time": "18:35",
+          "time": "18:36",
           "lowFloor": false
         },
         {
-          "time": "18:42",
+          "time": "18:43",
           "lowFloor": false
         },
         {
-          "time": "18:49",
+          "time": "18:50",
           "lowFloor": true
         },
         {
-          "time": "18:56",
+          "time": "18:57",
           "lowFloor": false
         },
         {
-          "time": "19:04",
+          "time": "19:05",
           "lowFloor": false
         },
         {
-          "time": "19:10",
+          "time": "19:11",
           "lowFloor": true
         },
         {
-          "time": "19:16",
+          "time": "19:17",
           "lowFloor": false
         },
         {
-          "time": "19:23",
+          "time": "19:24",
           "lowFloor": false
         },
         {
-          "time": "19:30",
+          "time": "19:31",
           "lowFloor": false
         },
         {
-          "time": "19:37",
+          "time": "19:38",
           "lowFloor": false
         },
         {
-          "time": "19:47",
+          "time": "19:48",
           "lowFloor": true
         },
         {
-          "time": "20:00",
+          "time": "20:01",
           "lowFloor": true
         },
         {
-          "time": "20:12",
+          "time": "20:13",
           "lowFloor": false
         },
         {
-          "time": "20:25",
+          "time": "20:26",
           "lowFloor": false
         },
         {
-          "time": "20:38",
+          "time": "20:39",
           "lowFloor": false
         },
         {
-          "time": "20:51",
+          "time": "20:52",
           "lowFloor": true
         },
         {
-          "time": "21:05",
+          "time": "21:06",
           "lowFloor": false
         },
         {
-          "time": "21:19",
+          "time": "21:20",
           "lowFloor": false
         },
         {
-          "time": "21:33",
+          "time": "21:34",
           "lowFloor": true
         },
         {
-          "time": "21:47",
+          "time": "21:48",
           "lowFloor": false
         },
         {
-          "time": "22:02",
+          "time": "22:03",
           "lowFloor": false
         },
         {
-          "time": "22:17",
+          "time": "22:18",
           "lowFloor": false
         },
         {
-          "time": "22:30",
+          "time": "22:31",
           "lowFloor": false
         }
       ],
@@ -552,5 +552,5 @@
       "日祝": []
     }
   },
-  "fetchedAt": "2026-09-07T09:15:46.056Z"
+  "fetchedAt": "2026-09-07T09:15:52.079Z"
 }

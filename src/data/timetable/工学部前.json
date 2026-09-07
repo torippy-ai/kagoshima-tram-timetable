@@ -1,110 +1,99 @@
 {
-  "stop": "鹿児島駅前",
-  "rosenId": "1820,1821",
+  "stop": "工学部前",
+  "rosenId": "1840,1841",
   "directions": {
-    "谷山行き": {
-      "平日": [
-        {
-          "time": "06:40",
-          "lowFloor": false
-        },
-        {
-          "time": "18:11",
-          "lowFloor": false
-        }
-      ],
-      "土曜": [],
-      "日祝": []
-    },
-    "鹿児島駅前行き": {
-      "平日": [],
-      "土曜": [],
-      "日祝": []
-    },
     "郡元行き": {
       "平日": [
         {
-          "time": "06:05",
+          "time": "05:50",
           "lowFloor": true
         },
         {
-          "time": "06:20",
+          "time": "05:52",
           "lowFloor": false
         },
         {
-          "time": "06:32",
+          "time": "06:04",
           "lowFloor": false
         },
         {
-          "time": "06:47",
+          "time": "06:17",
           "lowFloor": true
         },
         {
-          "time": "06:56",
+          "time": "06:29",
+          "lowFloor": true
+        },
+        {
+          "time": "06:44",
           "lowFloor": false
         },
         {
-          "time": "07:01",
+          "time": "06:54",
+          "lowFloor": true
+        },
+        {
+          "time": "06:58",
           "lowFloor": false
         },
         {
-          "time": "07:07",
+          "time": "07:08",
           "lowFloor": false
         },
         {
           "time": "07:13",
-          "lowFloor": false
-        },
-        {
-          "time": "07:19",
           "lowFloor": true
         },
         {
-          "time": "07:25",
+          "time": "07:22",
           "lowFloor": false
         },
         {
-          "time": "07:31",
+          "time": "07:29",
           "lowFloor": false
         },
         {
-          "time": "07:37",
+          "time": "07:35",
           "lowFloor": false
         },
         {
-          "time": "07:43",
+          "time": "07:41",
+          "lowFloor": false
+        },
+        {
+          "time": "07:47",
           "lowFloor": true
         },
         {
-          "time": "07:50",
+          "time": "07:53",
           "lowFloor": false
         },
         {
-          "time": "07:57",
+          "time": "07:59",
           "lowFloor": false
         },
         {
-          "time": "08:04",
+          "time": "08:05",
+          "lowFloor": false
+        },
+        {
+          "time": "08:11",
           "lowFloor": true
         },
         {
-          "time": "08:10",
+          "time": "08:18",
           "lowFloor": false
         },
         {
-          "time": "08:16",
+          "time": "08:25",
           "lowFloor": false
         },
         {
-          "time": "08:23",
+          "time": "08:32",
           "lowFloor": true
         },
         {
-          "time": "08:30",
-          "lowFloor": false
-        },
-        {
-          "time": "08:37",
+          "time": "08:38",
           "lowFloor": false
         },
         {
@@ -113,11 +102,11 @@
         },
         {
           "time": "08:51",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
-          "time": "08:57",
-          "lowFloor": true
+          "time": "08:58",
+          "lowFloor": false
         },
         {
           "time": "09:05",
@@ -125,23 +114,23 @@
         },
         {
           "time": "09:12",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "09:19",
           "lowFloor": false
         },
         {
-          "time": "09:26",
-          "lowFloor": false
-        },
-        {
-          "time": "09:33",
+          "time": "09:25",
           "lowFloor": true
         },
         {
-          "time": "09:40",
+          "time": "09:33",
           "lowFloor": false
+        },
+        {
+          "time": "09:40",
+          "lowFloor": true
         },
         {
           "time": "09:47",
@@ -181,11 +170,11 @@
         },
         {
           "time": "10:50",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "10:57",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "11:04",
@@ -193,11 +182,11 @@
         },
         {
           "time": "11:11",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "11:18",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "11:25",
@@ -205,11 +194,11 @@
         },
         {
           "time": "11:32",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "11:39",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "11:46",
@@ -229,7 +218,7 @@
         },
         {
           "time": "12:14",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "12:21",
@@ -237,15 +226,15 @@
         },
         {
           "time": "12:28",
-          "lowFloor": false
-        },
-        {
-          "time": "12:35",
           "lowFloor": true
         },
         {
-          "time": "12:42",
+          "time": "12:35",
           "lowFloor": false
+        },
+        {
+          "time": "12:42",
+          "lowFloor": true
         },
         {
           "time": "12:49",
@@ -285,11 +274,11 @@
         },
         {
           "time": "13:52",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "13:59",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "14:06",
@@ -297,11 +286,11 @@
         },
         {
           "time": "14:13",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "14:20",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "14:27",
@@ -309,11 +298,11 @@
         },
         {
           "time": "14:34",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "14:41",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "14:48",
@@ -333,7 +322,7 @@
         },
         {
           "time": "15:16",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "15:23",
@@ -341,210 +330,342 @@
         },
         {
           "time": "15:30",
-          "lowFloor": false
-        },
-        {
-          "time": "15:36",
-          "lowFloor": false
-        },
-        {
-          "time": "15:42",
           "lowFloor": true
         },
         {
-          "time": "15:48",
+          "time": "15:37",
           "lowFloor": false
         },
         {
-          "time": "15:54",
-          "lowFloor": false
-        },
-        {
-          "time": "16:00",
-          "lowFloor": false
-        },
-        {
-          "time": "16:06",
+          "time": "15:44",
           "lowFloor": true
         },
         {
-          "time": "16:12",
+          "time": "15:51",
           "lowFloor": false
         },
         {
-          "time": "16:18",
+          "time": "15:58",
           "lowFloor": false
         },
         {
-          "time": "16:24",
+          "time": "16:04",
           "lowFloor": false
         },
         {
-          "time": "16:30",
-          "lowFloor": false
-        },
-        {
-          "time": "16:36",
+          "time": "16:10",
           "lowFloor": true
         },
         {
-          "time": "16:42",
+          "time": "16:16",
           "lowFloor": false
         },
         {
-          "time": "16:48",
+          "time": "16:22",
           "lowFloor": false
         },
         {
-          "time": "16:54",
+          "time": "16:28",
+          "lowFloor": false
+        },
+        {
+          "time": "16:34",
           "lowFloor": true
         },
         {
-          "time": "17:00",
+          "time": "16:40",
           "lowFloor": false
         },
         {
-          "time": "17:06",
+          "time": "16:46",
           "lowFloor": false
         },
         {
-          "time": "17:12",
+          "time": "16:52",
           "lowFloor": false
         },
         {
-          "time": "17:18",
+          "time": "16:58",
+          "lowFloor": false
+        },
+        {
+          "time": "17:04",
           "lowFloor": true
         },
         {
-          "time": "17:24",
+          "time": "17:10",
           "lowFloor": false
         },
         {
-          "time": "17:31",
+          "time": "17:16",
           "lowFloor": false
         },
         {
-          "time": "17:38",
+          "time": "17:22",
           "lowFloor": true
         },
         {
-          "time": "17:45",
+          "time": "17:28",
           "lowFloor": false
         },
         {
-          "time": "17:51",
+          "time": "17:34",
           "lowFloor": false
         },
         {
-          "time": "17:57",
+          "time": "17:40",
           "lowFloor": false
         },
         {
-          "time": "18:05",
-          "lowFloor": false
-        },
-        {
-          "time": "18:16",
-          "lowFloor": false
-        },
-        {
-          "time": "18:22",
-          "lowFloor": false
-        },
-        {
-          "time": "18:28",
+          "time": "17:46",
           "lowFloor": true
         },
         {
-          "time": "18:35",
+          "time": "17:52",
           "lowFloor": false
         },
         {
-          "time": "18:42",
+          "time": "17:59",
           "lowFloor": false
         },
         {
-          "time": "18:49",
+          "time": "18:06",
           "lowFloor": true
+        },
+        {
+          "time": "18:13",
+          "lowFloor": false
+        },
+        {
+          "time": "18:19",
+          "lowFloor": false
+        },
+        {
+          "time": "18:25",
+          "lowFloor": false
+        },
+        {
+          "time": "18:33",
+          "lowFloor": false
+        },
+        {
+          "time": "18:44",
+          "lowFloor": false
+        },
+        {
+          "time": "18:50",
+          "lowFloor": false
         },
         {
           "time": "18:56",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
-          "time": "19:04",
+          "time": "19:03",
           "lowFloor": false
         },
         {
           "time": "19:10",
+          "lowFloor": false
+        },
+        {
+          "time": "19:17",
           "lowFloor": true
         },
         {
-          "time": "19:16",
+          "time": "19:24",
           "lowFloor": false
         },
         {
-          "time": "19:23",
+          "time": "19:32",
           "lowFloor": false
         },
         {
-          "time": "19:30",
-          "lowFloor": false
-        },
-        {
-          "time": "19:37",
-          "lowFloor": false
-        },
-        {
-          "time": "19:47",
+          "time": "19:38",
           "lowFloor": true
         },
         {
-          "time": "20:00",
+          "time": "19:44",
+          "lowFloor": false
+        },
+        {
+          "time": "19:51",
+          "lowFloor": false
+        },
+        {
+          "time": "19:58",
+          "lowFloor": false
+        },
+        {
+          "time": "20:05",
+          "lowFloor": false
+        },
+        {
+          "time": "20:15",
           "lowFloor": true
         },
         {
-          "time": "20:12",
-          "lowFloor": false
-        },
-        {
-          "time": "20:25",
-          "lowFloor": false
-        },
-        {
-          "time": "20:38",
-          "lowFloor": false
-        },
-        {
-          "time": "20:51",
+          "time": "20:28",
           "lowFloor": true
         },
         {
-          "time": "21:05",
+          "time": "20:40",
+          "lowFloor": false
+        },
+        {
+          "time": "20:53",
+          "lowFloor": false
+        },
+        {
+          "time": "21:06",
           "lowFloor": false
         },
         {
           "time": "21:19",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "21:33",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "21:47",
           "lowFloor": false
         },
         {
-          "time": "22:02",
+          "time": "21:57",
+          "lowFloor": true
+        },
+        {
+          "time": "22:11",
           "lowFloor": false
         },
         {
-          "time": "22:17",
+          "time": "22:26",
           "lowFloor": false
         },
         {
-          "time": "22:30",
+          "time": "22:41",
+          "lowFloor": false
+        },
+        {
+          "time": "22:54",
+          "lowFloor": false
+        }
+      ],
+      "土曜": [],
+      "日祝": []
+    },
+    "鹿児島駅前行き": {
+      "平日": [
+        {
+          "time": "05:37",
+          "lowFloor": true
+        },
+        {
+          "time": "05:50",
+          "lowFloor": false
+        },
+        {
+          "time": "06:02",
+          "lowFloor": false
+        },
+        {
+          "time": "06:32",
+          "lowFloor": false
+        },
+        {
+          "time": "06:46",
+          "lowFloor": false
+        },
+        {
+          "time": "07:00",
+          "lowFloor": true
+        },
+        {
+          "time": "07:07",
+          "lowFloor": false
+        },
+        {
+          "time": "07:21",
+          "lowFloor": true
+        }
+      ],
+      "土曜": [],
+      "日祝": []
+    },
+    "谷山行き": {
+      "平日": [
+        {
+          "time": "05:37",
+          "lowFloor": true
+        },
+        {
+          "time": "05:48",
+          "lowFloor": false
+        },
+        {
+          "time": "05:58",
+          "lowFloor": false
+        },
+        {
+          "time": "06:04",
+          "lowFloor": true
+        },
+        {
+          "time": "06:18",
+          "lowFloor": false
+        },
+        {
+          "time": "06:26",
+          "lowFloor": true
+        },
+        {
+          "time": "06:37",
+          "lowFloor": false
+        },
+        {
+          "time": "06:41",
+          "lowFloor": false
+        },
+        {
+          "time": "06:51",
+          "lowFloor": false
+        },
+        {
+          "time": "06:55",
+          "lowFloor": false
+        },
+        {
+          "time": "07:06",
+          "lowFloor": false
+        },
+        {
+          "time": "07:16",
+          "lowFloor": false
+        },
+        {
+          "time": "07:22",
+          "lowFloor": false
+        },
+        {
+          "time": "07:32",
+          "lowFloor": false
+        },
+        {
+          "time": "15:44",
+          "lowFloor": false
+        },
+        {
+          "time": "16:22",
+          "lowFloor": false
+        },
+        {
+          "time": "17:04",
+          "lowFloor": false
+        },
+        {
+          "time": "18:39",
           "lowFloor": false
         }
       ],
@@ -552,5 +673,5 @@
       "日祝": []
     }
   },
-  "fetchedAt": "2026-09-07T09:15:46.056Z"
+  "fetchedAt": "2026-09-07T09:17:55.656Z"
 }

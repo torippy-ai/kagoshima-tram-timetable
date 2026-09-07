@@ -1,103 +1,76 @@
 {
-  "stop": "鹿児島駅前",
-  "rosenId": "1820,1821",
+  "stop": "高見橋",
+  "rosenId": "1840,1841",
   "directions": {
-    "谷山行き": {
-      "平日": [
-        {
-          "time": "06:40",
-          "lowFloor": false
-        },
-        {
-          "time": "18:11",
-          "lowFloor": false
-        }
-      ],
-      "土曜": [],
-      "日祝": []
-    },
-    "鹿児島駅前行き": {
-      "平日": [],
-      "土曜": [],
-      "日祝": []
-    },
     "郡元行き": {
       "平日": [
         {
-          "time": "06:05",
+          "time": "06:17",
           "lowFloor": true
-        },
-        {
-          "time": "06:20",
-          "lowFloor": false
         },
         {
           "time": "06:32",
           "lowFloor": false
         },
         {
-          "time": "06:47",
+          "time": "06:45",
+          "lowFloor": false
+        },
+        {
+          "time": "07:00",
           "lowFloor": true
         },
         {
-          "time": "06:56",
+          "time": "07:09",
           "lowFloor": false
         },
         {
-          "time": "07:01",
+          "time": "07:15",
           "lowFloor": false
         },
         {
-          "time": "07:07",
+          "time": "07:21",
           "lowFloor": false
         },
         {
-          "time": "07:13",
+          "time": "07:27",
           "lowFloor": false
         },
         {
-          "time": "07:19",
+          "time": "07:33",
           "lowFloor": true
         },
         {
-          "time": "07:25",
+          "time": "07:39",
           "lowFloor": false
         },
         {
-          "time": "07:31",
+          "time": "07:45",
           "lowFloor": false
         },
         {
-          "time": "07:37",
-          "lowFloor": false
-        },
-        {
-          "time": "07:43",
-          "lowFloor": true
-        },
-        {
-          "time": "07:50",
+          "time": "07:51",
           "lowFloor": false
         },
         {
           "time": "07:57",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "08:04",
-          "lowFloor": true
-        },
-        {
-          "time": "08:10",
           "lowFloor": false
         },
         {
-          "time": "08:16",
+          "time": "08:11",
           "lowFloor": false
         },
         {
-          "time": "08:23",
+          "time": "08:18",
           "lowFloor": true
+        },
+        {
+          "time": "08:24",
+          "lowFloor": false
         },
         {
           "time": "08:30",
@@ -105,7 +78,7 @@
         },
         {
           "time": "08:37",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "08:44",
@@ -116,15 +89,15 @@
           "lowFloor": false
         },
         {
-          "time": "08:57",
-          "lowFloor": true
+          "time": "08:58",
+          "lowFloor": false
         },
         {
           "time": "09:05",
           "lowFloor": false
         },
         {
-          "time": "09:12",
+          "time": "09:11",
           "lowFloor": true
         },
         {
@@ -133,11 +106,11 @@
         },
         {
           "time": "09:26",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "09:33",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "09:40",
@@ -145,7 +118,7 @@
         },
         {
           "time": "09:47",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "09:54",
@@ -153,7 +126,7 @@
         },
         {
           "time": "10:01",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "10:08",
@@ -161,7 +134,7 @@
         },
         {
           "time": "10:15",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "10:22",
@@ -169,7 +142,7 @@
         },
         {
           "time": "10:29",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "10:36",
@@ -177,11 +150,11 @@
         },
         {
           "time": "10:43",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "10:50",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "10:57",
@@ -189,11 +162,11 @@
         },
         {
           "time": "11:04",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "11:11",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "11:18",
@@ -201,11 +174,11 @@
         },
         {
           "time": "11:25",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "11:32",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "11:39",
@@ -213,7 +186,7 @@
         },
         {
           "time": "11:46",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "11:53",
@@ -221,7 +194,7 @@
         },
         {
           "time": "12:00",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "12:07",
@@ -237,11 +210,11 @@
         },
         {
           "time": "12:28",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "12:35",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "12:42",
@@ -249,7 +222,7 @@
         },
         {
           "time": "12:49",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "12:56",
@@ -257,7 +230,7 @@
         },
         {
           "time": "13:03",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "13:10",
@@ -265,7 +238,7 @@
         },
         {
           "time": "13:17",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "13:24",
@@ -273,7 +246,7 @@
         },
         {
           "time": "13:31",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "13:38",
@@ -281,11 +254,11 @@
         },
         {
           "time": "13:45",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "13:52",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "13:59",
@@ -293,11 +266,11 @@
         },
         {
           "time": "14:06",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "14:13",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "14:20",
@@ -305,11 +278,11 @@
         },
         {
           "time": "14:27",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "14:34",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "14:41",
@@ -317,7 +290,7 @@
         },
         {
           "time": "14:48",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "14:55",
@@ -325,7 +298,7 @@
         },
         {
           "time": "15:02",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "15:09",
@@ -341,102 +314,102 @@
         },
         {
           "time": "15:30",
-          "lowFloor": false
-        },
-        {
-          "time": "15:36",
-          "lowFloor": false
-        },
-        {
-          "time": "15:42",
           "lowFloor": true
         },
         {
-          "time": "15:48",
+          "time": "15:37",
           "lowFloor": false
         },
         {
-          "time": "15:54",
+          "time": "15:44",
           "lowFloor": false
         },
         {
-          "time": "16:00",
+          "time": "15:50",
           "lowFloor": false
         },
         {
-          "time": "16:06",
+          "time": "15:56",
           "lowFloor": true
         },
         {
-          "time": "16:12",
+          "time": "16:02",
           "lowFloor": false
         },
         {
-          "time": "16:18",
+          "time": "16:08",
           "lowFloor": false
         },
         {
-          "time": "16:24",
+          "time": "16:14",
           "lowFloor": false
         },
         {
-          "time": "16:30",
-          "lowFloor": false
-        },
-        {
-          "time": "16:36",
+          "time": "16:20",
           "lowFloor": true
         },
         {
-          "time": "16:42",
+          "time": "16:26",
           "lowFloor": false
         },
         {
-          "time": "16:48",
+          "time": "16:32",
           "lowFloor": false
         },
         {
-          "time": "16:54",
+          "time": "16:38",
+          "lowFloor": false
+        },
+        {
+          "time": "16:44",
+          "lowFloor": false
+        },
+        {
+          "time": "16:50",
           "lowFloor": true
         },
         {
-          "time": "17:00",
+          "time": "16:56",
           "lowFloor": false
         },
         {
-          "time": "17:06",
+          "time": "17:02",
           "lowFloor": false
         },
         {
-          "time": "17:12",
-          "lowFloor": false
-        },
-        {
-          "time": "17:18",
+          "time": "17:08",
           "lowFloor": true
         },
         {
-          "time": "17:24",
+          "time": "17:14",
           "lowFloor": false
         },
         {
-          "time": "17:31",
+          "time": "17:20",
           "lowFloor": false
+        },
+        {
+          "time": "17:26",
+          "lowFloor": false
+        },
+        {
+          "time": "17:32",
+          "lowFloor": true
         },
         {
           "time": "17:38",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "17:45",
           "lowFloor": false
         },
         {
-          "time": "17:51",
-          "lowFloor": false
+          "time": "17:52",
+          "lowFloor": true
         },
         {
-          "time": "17:57",
+          "time": "17:59",
           "lowFloor": false
         },
         {
@@ -444,48 +417,48 @@
           "lowFloor": false
         },
         {
-          "time": "18:16",
+          "time": "18:11",
           "lowFloor": false
         },
         {
-          "time": "18:22",
+          "time": "18:19",
           "lowFloor": false
         },
         {
-          "time": "18:28",
-          "lowFloor": true
+          "time": "18:30",
+          "lowFloor": false
         },
         {
-          "time": "18:35",
+          "time": "18:36",
           "lowFloor": false
         },
         {
           "time": "18:42",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "18:49",
-          "lowFloor": true
+          "lowFloor": false
         },
         {
           "time": "18:56",
           "lowFloor": false
         },
         {
-          "time": "19:04",
-          "lowFloor": false
-        },
-        {
-          "time": "19:10",
+          "time": "19:03",
           "lowFloor": true
         },
         {
-          "time": "19:16",
+          "time": "19:10",
           "lowFloor": false
         },
         {
-          "time": "19:23",
+          "time": "19:18",
           "lowFloor": false
+        },
+        {
+          "time": "19:24",
+          "lowFloor": true
         },
         {
           "time": "19:30",
@@ -496,32 +469,36 @@
           "lowFloor": false
         },
         {
-          "time": "19:47",
-          "lowFloor": true
-        },
-        {
-          "time": "20:00",
-          "lowFloor": true
-        },
-        {
-          "time": "20:12",
+          "time": "19:44",
           "lowFloor": false
         },
         {
-          "time": "20:25",
+          "time": "19:51",
           "lowFloor": false
         },
         {
-          "time": "20:38",
-          "lowFloor": false
-        },
-        {
-          "time": "20:51",
+          "time": "20:01",
           "lowFloor": true
+        },
+        {
+          "time": "20:14",
+          "lowFloor": true
+        },
+        {
+          "time": "20:26",
+          "lowFloor": false
+        },
+        {
+          "time": "20:39",
+          "lowFloor": false
+        },
+        {
+          "time": "20:52",
+          "lowFloor": false
         },
         {
           "time": "21:05",
-          "lowFloor": false
+          "lowFloor": true
         },
         {
           "time": "21:19",
@@ -529,22 +506,45 @@
         },
         {
           "time": "21:33",
+          "lowFloor": false
+        },
+        {
+          "time": "21:45",
           "lowFloor": true
         },
         {
-          "time": "21:47",
+          "time": "21:59",
           "lowFloor": false
         },
         {
-          "time": "22:02",
+          "time": "22:14",
           "lowFloor": false
         },
         {
-          "time": "22:17",
+          "time": "22:29",
           "lowFloor": false
         },
         {
-          "time": "22:30",
+          "time": "22:42",
+          "lowFloor": false
+        }
+      ],
+      "土曜": [],
+      "日祝": []
+    },
+    "鹿児島駅前行き": {
+      "平日": [],
+      "土曜": [],
+      "日祝": []
+    },
+    "谷山行き": {
+      "平日": [
+        {
+          "time": "06:53",
+          "lowFloor": false
+        },
+        {
+          "time": "18:25",
           "lowFloor": false
         }
       ],
@@ -552,5 +552,5 @@
       "日祝": []
     }
   },
-  "fetchedAt": "2026-09-07T09:15:46.056Z"
+  "fetchedAt": "2026-09-07T09:17:27.652Z"
 }

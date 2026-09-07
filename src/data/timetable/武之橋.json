@@ -1,0 +1,1103 @@
+{
+  "stop": "武之橋",
+  "rosenId": "1820,1821",
+  "directions": {
+    "谷山行き": {
+      "平日": [
+        {
+          "time": "06:04",
+          "lowFloor": false
+        },
+        {
+          "time": "06:13",
+          "lowFloor": false
+        },
+        {
+          "time": "06:28",
+          "lowFloor": false
+        },
+        {
+          "time": "06:41",
+          "lowFloor": true
+        },
+        {
+          "time": "06:49",
+          "lowFloor": false
+        },
+        {
+          "time": "06:54",
+          "lowFloor": true
+        },
+        {
+          "time": "06:58",
+          "lowFloor": false
+        },
+        {
+          "time": "07:01",
+          "lowFloor": false
+        },
+        {
+          "time": "07:06",
+          "lowFloor": false
+        },
+        {
+          "time": "07:12",
+          "lowFloor": false
+        },
+        {
+          "time": "07:18",
+          "lowFloor": false
+        },
+        {
+          "time": "07:24",
+          "lowFloor": true
+        },
+        {
+          "time": "07:29",
+          "lowFloor": false
+        },
+        {
+          "time": "07:34",
+          "lowFloor": false
+        },
+        {
+          "time": "07:39",
+          "lowFloor": false
+        },
+        {
+          "time": "07:44",
+          "lowFloor": true
+        },
+        {
+          "time": "07:49",
+          "lowFloor": false
+        },
+        {
+          "time": "07:54",
+          "lowFloor": false
+        },
+        {
+          "time": "07:59",
+          "lowFloor": false
+        },
+        {
+          "time": "08:04",
+          "lowFloor": true
+        },
+        {
+          "time": "08:09",
+          "lowFloor": false
+        },
+        {
+          "time": "08:14",
+          "lowFloor": false
+        },
+        {
+          "time": "08:19",
+          "lowFloor": false
+        },
+        {
+          "time": "08:25",
+          "lowFloor": false
+        },
+        {
+          "time": "08:31",
+          "lowFloor": true
+        },
+        {
+          "time": "08:38",
+          "lowFloor": false
+        },
+        {
+          "time": "08:44",
+          "lowFloor": false
+        },
+        {
+          "time": "08:51",
+          "lowFloor": false
+        },
+        {
+          "time": "08:58",
+          "lowFloor": false
+        },
+        {
+          "time": "09:05",
+          "lowFloor": true
+        },
+        {
+          "time": "09:12",
+          "lowFloor": false
+        },
+        {
+          "time": "09:19",
+          "lowFloor": false
+        },
+        {
+          "time": "09:26",
+          "lowFloor": true
+        },
+        {
+          "time": "09:33",
+          "lowFloor": false
+        },
+        {
+          "time": "09:40",
+          "lowFloor": false
+        },
+        {
+          "time": "09:47",
+          "lowFloor": true
+        },
+        {
+          "time": "09:54",
+          "lowFloor": false
+        },
+        {
+          "time": "10:01",
+          "lowFloor": false
+        },
+        {
+          "time": "10:08",
+          "lowFloor": true
+        },
+        {
+          "time": "10:14",
+          "lowFloor": false
+        },
+        {
+          "time": "10:21",
+          "lowFloor": false
+        },
+        {
+          "time": "10:28",
+          "lowFloor": false
+        },
+        {
+          "time": "10:35",
+          "lowFloor": true
+        },
+        {
+          "time": "10:42",
+          "lowFloor": false
+        },
+        {
+          "time": "10:49",
+          "lowFloor": true
+        },
+        {
+          "time": "10:56",
+          "lowFloor": false
+        },
+        {
+          "time": "11:03",
+          "lowFloor": false
+        },
+        {
+          "time": "11:10",
+          "lowFloor": true
+        },
+        {
+          "time": "11:17",
+          "lowFloor": false
+        },
+        {
+          "time": "11:24",
+          "lowFloor": false
+        },
+        {
+          "time": "11:31",
+          "lowFloor": false
+        },
+        {
+          "time": "11:38",
+          "lowFloor": true
+        },
+        {
+          "time": "11:45",
+          "lowFloor": false
+        },
+        {
+          "time": "11:52",
+          "lowFloor": false
+        },
+        {
+          "time": "11:59",
+          "lowFloor": false
+        },
+        {
+          "time": "12:06",
+          "lowFloor": true
+        },
+        {
+          "time": "12:13",
+          "lowFloor": false
+        },
+        {
+          "time": "12:20",
+          "lowFloor": false
+        },
+        {
+          "time": "12:27",
+          "lowFloor": true
+        },
+        {
+          "time": "12:34",
+          "lowFloor": false
+        },
+        {
+          "time": "12:41",
+          "lowFloor": false
+        },
+        {
+          "time": "12:48",
+          "lowFloor": true
+        },
+        {
+          "time": "12:55",
+          "lowFloor": false
+        },
+        {
+          "time": "13:02",
+          "lowFloor": false
+        },
+        {
+          "time": "13:09",
+          "lowFloor": true
+        },
+        {
+          "time": "13:16",
+          "lowFloor": false
+        },
+        {
+          "time": "13:23",
+          "lowFloor": false
+        },
+        {
+          "time": "13:30",
+          "lowFloor": false
+        },
+        {
+          "time": "13:37",
+          "lowFloor": true
+        },
+        {
+          "time": "13:44",
+          "lowFloor": false
+        },
+        {
+          "time": "13:51",
+          "lowFloor": true
+        },
+        {
+          "time": "13:58",
+          "lowFloor": false
+        },
+        {
+          "time": "14:05",
+          "lowFloor": false
+        },
+        {
+          "time": "14:12",
+          "lowFloor": true
+        },
+        {
+          "time": "14:19",
+          "lowFloor": false
+        },
+        {
+          "time": "14:26",
+          "lowFloor": false
+        },
+        {
+          "time": "14:33",
+          "lowFloor": false
+        },
+        {
+          "time": "14:40",
+          "lowFloor": true
+        },
+        {
+          "time": "14:47",
+          "lowFloor": false
+        },
+        {
+          "time": "14:54",
+          "lowFloor": false
+        },
+        {
+          "time": "15:01",
+          "lowFloor": false
+        },
+        {
+          "time": "15:08",
+          "lowFloor": true
+        },
+        {
+          "time": "15:15",
+          "lowFloor": false
+        },
+        {
+          "time": "15:22",
+          "lowFloor": false
+        },
+        {
+          "time": "15:29",
+          "lowFloor": true
+        },
+        {
+          "time": "15:36",
+          "lowFloor": false
+        },
+        {
+          "time": "15:43",
+          "lowFloor": false
+        },
+        {
+          "time": "15:50",
+          "lowFloor": true
+        },
+        {
+          "time": "15:57",
+          "lowFloor": false
+        },
+        {
+          "time": "16:04",
+          "lowFloor": false
+        },
+        {
+          "time": "16:11",
+          "lowFloor": true
+        },
+        {
+          "time": "16:18",
+          "lowFloor": false
+        },
+        {
+          "time": "16:25",
+          "lowFloor": false
+        },
+        {
+          "time": "16:32",
+          "lowFloor": false
+        },
+        {
+          "time": "16:39",
+          "lowFloor": true
+        },
+        {
+          "time": "16:45",
+          "lowFloor": false
+        },
+        {
+          "time": "16:51",
+          "lowFloor": false
+        },
+        {
+          "time": "16:58",
+          "lowFloor": true
+        },
+        {
+          "time": "17:04",
+          "lowFloor": false
+        },
+        {
+          "time": "17:10",
+          "lowFloor": false
+        },
+        {
+          "time": "17:16",
+          "lowFloor": false
+        },
+        {
+          "time": "17:22",
+          "lowFloor": true
+        },
+        {
+          "time": "17:28",
+          "lowFloor": false
+        },
+        {
+          "time": "17:33",
+          "lowFloor": false
+        },
+        {
+          "time": "17:38",
+          "lowFloor": false
+        },
+        {
+          "time": "17:44",
+          "lowFloor": true
+        },
+        {
+          "time": "17:49",
+          "lowFloor": false
+        },
+        {
+          "time": "17:55",
+          "lowFloor": false
+        },
+        {
+          "time": "18:01",
+          "lowFloor": false
+        },
+        {
+          "time": "18:07",
+          "lowFloor": false
+        },
+        {
+          "time": "18:13",
+          "lowFloor": false
+        },
+        {
+          "time": "18:18",
+          "lowFloor": true
+        },
+        {
+          "time": "18:23",
+          "lowFloor": false
+        },
+        {
+          "time": "18:28",
+          "lowFloor": false
+        },
+        {
+          "time": "18:34",
+          "lowFloor": true
+        },
+        {
+          "time": "18:40",
+          "lowFloor": false
+        },
+        {
+          "time": "18:46",
+          "lowFloor": false
+        },
+        {
+          "time": "18:51",
+          "lowFloor": false
+        },
+        {
+          "time": "18:56",
+          "lowFloor": false
+        },
+        {
+          "time": "19:01",
+          "lowFloor": true
+        },
+        {
+          "time": "19:07",
+          "lowFloor": false
+        },
+        {
+          "time": "19:13",
+          "lowFloor": false
+        },
+        {
+          "time": "19:19",
+          "lowFloor": true
+        },
+        {
+          "time": "19:26",
+          "lowFloor": false
+        },
+        {
+          "time": "19:34",
+          "lowFloor": false
+        },
+        {
+          "time": "19:41",
+          "lowFloor": false
+        },
+        {
+          "time": "19:49",
+          "lowFloor": false
+        },
+        {
+          "time": "19:58",
+          "lowFloor": false
+        },
+        {
+          "time": "20:07",
+          "lowFloor": true
+        },
+        {
+          "time": "20:15",
+          "lowFloor": false
+        },
+        {
+          "time": "20:23",
+          "lowFloor": false
+        },
+        {
+          "time": "20:32",
+          "lowFloor": false
+        },
+        {
+          "time": "20:42",
+          "lowFloor": false
+        },
+        {
+          "time": "20:52",
+          "lowFloor": false
+        },
+        {
+          "time": "21:03",
+          "lowFloor": false
+        },
+        {
+          "time": "21:14",
+          "lowFloor": false
+        },
+        {
+          "time": "21:25",
+          "lowFloor": true
+        },
+        {
+          "time": "21:36",
+          "lowFloor": true
+        },
+        {
+          "time": "21:47",
+          "lowFloor": false
+        },
+        {
+          "time": "22:00",
+          "lowFloor": false
+        },
+        {
+          "time": "22:14",
+          "lowFloor": false
+        },
+        {
+          "time": "22:29",
+          "lowFloor": true
+        },
+        {
+          "time": "22:53",
+          "lowFloor": false
+        }
+      ],
+      "土曜": [],
+      "日祝": []
+    },
+    "鹿児島駅前行き": {
+      "平日": [
+        {
+          "time": "06:04",
+          "lowFloor": false
+        },
+        {
+          "time": "06:13",
+          "lowFloor": false
+        },
+        {
+          "time": "06:29",
+          "lowFloor": true
+        },
+        {
+          "time": "06:45",
+          "lowFloor": false
+        },
+        {
+          "time": "07:01",
+          "lowFloor": false
+        },
+        {
+          "time": "07:15",
+          "lowFloor": false
+        },
+        {
+          "time": "07:23",
+          "lowFloor": false
+        },
+        {
+          "time": "07:31",
+          "lowFloor": false
+        },
+        {
+          "time": "07:38",
+          "lowFloor": true
+        },
+        {
+          "time": "07:45",
+          "lowFloor": false
+        },
+        {
+          "time": "07:52",
+          "lowFloor": false
+        },
+        {
+          "time": "07:59",
+          "lowFloor": false
+        },
+        {
+          "time": "08:06",
+          "lowFloor": true
+        },
+        {
+          "time": "08:13",
+          "lowFloor": false
+        },
+        {
+          "time": "08:20",
+          "lowFloor": false
+        },
+        {
+          "time": "08:27",
+          "lowFloor": true
+        },
+        {
+          "time": "08:34",
+          "lowFloor": false
+        },
+        {
+          "time": "08:41",
+          "lowFloor": false
+        },
+        {
+          "time": "08:48",
+          "lowFloor": true
+        },
+        {
+          "time": "08:55",
+          "lowFloor": false
+        },
+        {
+          "time": "09:02",
+          "lowFloor": false
+        },
+        {
+          "time": "09:09",
+          "lowFloor": true
+        },
+        {
+          "time": "09:16",
+          "lowFloor": false
+        },
+        {
+          "time": "09:23",
+          "lowFloor": false
+        },
+        {
+          "time": "09:30",
+          "lowFloor": true
+        },
+        {
+          "time": "09:37",
+          "lowFloor": false
+        },
+        {
+          "time": "09:44",
+          "lowFloor": false
+        },
+        {
+          "time": "09:51",
+          "lowFloor": true
+        },
+        {
+          "time": "09:58",
+          "lowFloor": false
+        },
+        {
+          "time": "10:05",
+          "lowFloor": false
+        },
+        {
+          "time": "10:12",
+          "lowFloor": true
+        },
+        {
+          "time": "10:19",
+          "lowFloor": false
+        },
+        {
+          "time": "10:26",
+          "lowFloor": false
+        },
+        {
+          "time": "10:33",
+          "lowFloor": false
+        },
+        {
+          "time": "10:40",
+          "lowFloor": true
+        },
+        {
+          "time": "10:47",
+          "lowFloor": false
+        },
+        {
+          "time": "10:54",
+          "lowFloor": false
+        },
+        {
+          "time": "11:01",
+          "lowFloor": false
+        },
+        {
+          "time": "11:08",
+          "lowFloor": true
+        },
+        {
+          "time": "11:15",
+          "lowFloor": false
+        },
+        {
+          "time": "11:22",
+          "lowFloor": false
+        },
+        {
+          "time": "11:29",
+          "lowFloor": true
+        },
+        {
+          "time": "11:36",
+          "lowFloor": false
+        },
+        {
+          "time": "11:43",
+          "lowFloor": false
+        },
+        {
+          "time": "11:50",
+          "lowFloor": true
+        },
+        {
+          "time": "11:57",
+          "lowFloor": false
+        },
+        {
+          "time": "12:04",
+          "lowFloor": false
+        },
+        {
+          "time": "12:11",
+          "lowFloor": true
+        },
+        {
+          "time": "12:18",
+          "lowFloor": false
+        },
+        {
+          "time": "12:25",
+          "lowFloor": false
+        },
+        {
+          "time": "12:32",
+          "lowFloor": true
+        },
+        {
+          "time": "12:39",
+          "lowFloor": false
+        },
+        {
+          "time": "12:46",
+          "lowFloor": false
+        },
+        {
+          "time": "12:53",
+          "lowFloor": true
+        },
+        {
+          "time": "13:00",
+          "lowFloor": false
+        },
+        {
+          "time": "13:07",
+          "lowFloor": false
+        },
+        {
+          "time": "13:14",
+          "lowFloor": true
+        },
+        {
+          "time": "13:21",
+          "lowFloor": false
+        },
+        {
+          "time": "13:28",
+          "lowFloor": false
+        },
+        {
+          "time": "13:35",
+          "lowFloor": false
+        },
+        {
+          "time": "13:42",
+          "lowFloor": true
+        },
+        {
+          "time": "13:49",
+          "lowFloor": false
+        },
+        {
+          "time": "13:56",
+          "lowFloor": false
+        },
+        {
+          "time": "14:03",
+          "lowFloor": false
+        },
+        {
+          "time": "14:10",
+          "lowFloor": true
+        },
+        {
+          "time": "14:17",
+          "lowFloor": false
+        },
+        {
+          "time": "14:24",
+          "lowFloor": false
+        },
+        {
+          "time": "14:31",
+          "lowFloor": true
+        },
+        {
+          "time": "14:38",
+          "lowFloor": false
+        },
+        {
+          "time": "14:45",
+          "lowFloor": false
+        },
+        {
+          "time": "14:52",
+          "lowFloor": true
+        },
+        {
+          "time": "14:59",
+          "lowFloor": false
+        },
+        {
+          "time": "15:06",
+          "lowFloor": false
+        },
+        {
+          "time": "15:13",
+          "lowFloor": true
+        },
+        {
+          "time": "15:20",
+          "lowFloor": false
+        },
+        {
+          "time": "15:27",
+          "lowFloor": false
+        },
+        {
+          "time": "15:34",
+          "lowFloor": true
+        },
+        {
+          "time": "15:41",
+          "lowFloor": false
+        },
+        {
+          "time": "15:48",
+          "lowFloor": false
+        },
+        {
+          "time": "15:55",
+          "lowFloor": true
+        },
+        {
+          "time": "16:02",
+          "lowFloor": false
+        },
+        {
+          "time": "16:09",
+          "lowFloor": false
+        },
+        {
+          "time": "16:16",
+          "lowFloor": true
+        },
+        {
+          "time": "16:23",
+          "lowFloor": false
+        },
+        {
+          "time": "16:30",
+          "lowFloor": false
+        },
+        {
+          "time": "16:37",
+          "lowFloor": false
+        },
+        {
+          "time": "16:44",
+          "lowFloor": true
+        },
+        {
+          "time": "16:51",
+          "lowFloor": false
+        },
+        {
+          "time": "16:58",
+          "lowFloor": false
+        },
+        {
+          "time": "17:05",
+          "lowFloor": false
+        },
+        {
+          "time": "17:12",
+          "lowFloor": true
+        },
+        {
+          "time": "17:19",
+          "lowFloor": false
+        },
+        {
+          "time": "17:26",
+          "lowFloor": false
+        },
+        {
+          "time": "17:33",
+          "lowFloor": true
+        },
+        {
+          "time": "17:40",
+          "lowFloor": false
+        },
+        {
+          "time": "17:47",
+          "lowFloor": false
+        },
+        {
+          "time": "17:54",
+          "lowFloor": true
+        },
+        {
+          "time": "18:01",
+          "lowFloor": false
+        },
+        {
+          "time": "18:08",
+          "lowFloor": false
+        },
+        {
+          "time": "18:15",
+          "lowFloor": true
+        },
+        {
+          "time": "18:22",
+          "lowFloor": false
+        },
+        {
+          "time": "18:29",
+          "lowFloor": false
+        },
+        {
+          "time": "18:36",
+          "lowFloor": true
+        },
+        {
+          "time": "18:43",
+          "lowFloor": false
+        },
+        {
+          "time": "18:50",
+          "lowFloor": false
+        },
+        {
+          "time": "18:57",
+          "lowFloor": true
+        },
+        {
+          "time": "19:04",
+          "lowFloor": false
+        },
+        {
+          "time": "19:11",
+          "lowFloor": false
+        },
+        {
+          "time": "19:18",
+          "lowFloor": true
+        },
+        {
+          "time": "19:25",
+          "lowFloor": false
+        },
+        {
+          "time": "19:33",
+          "lowFloor": false
+        },
+        {
+          "time": "19:42",
+          "lowFloor": false
+        },
+        {
+          "time": "19:50",
+          "lowFloor": true
+        },
+        {
+          "time": "19:58",
+          "lowFloor": false
+        },
+        {
+          "time": "20:06",
+          "lowFloor": false
+        },
+        {
+          "time": "20:14",
+          "lowFloor": true
+        },
+        {
+          "time": "20:25",
+          "lowFloor": false
+        },
+        {
+          "time": "20:36",
+          "lowFloor": false
+        },
+        {
+          "time": "20:47",
+          "lowFloor": false
+        },
+        {
+          "time": "20:58",
+          "lowFloor": true
+        },
+        {
+          "time": "21:09",
+          "lowFloor": false
+        },
+        {
+          "time": "21:20",
+          "lowFloor": true
+        },
+        {
+          "time": "21:33",
+          "lowFloor": false
+        },
+        {
+          "time": "21:46",
+          "lowFloor": true
+        },
+        {
+          "time": "21:59",
+          "lowFloor": false
+        },
+        {
+          "time": "22:14",
+          "lowFloor": false
+        },
+        {
+          "time": "22:29",
+          "lowFloor": true
+        },
+        {
+          "time": "22:53",
+          "lowFloor": false
+        }
+      ],
+      "土曜": [],
+      "日祝": []
+    }
+  },
+  "fetchedAt": "2026-09-07T09:16:36.688Z"
+}
