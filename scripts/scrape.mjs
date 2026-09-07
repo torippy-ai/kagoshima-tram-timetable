@@ -108,12 +108,18 @@ function findTimetableTable($, container) {
 /**
  * time_table.php を解析する。
  *
- * 実際のページ構造を、外部からアクセスできない開発環境のため生のHTMLで
- * 確認しきれていない。以下は「方面の見出し行」→「曜日区分の見出し行」→
- * 「時刻データ行」という表形式（列位置で方面が決まる、行単位で曜日区分が
- * 切り替わる）を仮定した実装であり、GitHub Actions 等ネットワークが
- * 開いている環境で初回実行した際は、必ず生成された JSON を確認し、
- * 想定と異なっていればこの関数を調整すること。
+ * 実際のページ（2026年9月に初回実行して確認）は、「方面（○○行き）」の見出しセルが
+ * colspan で複数列（曜日区分の数ぶん）にまたがり、その下の行に曜日区分
+ * （平日／土曜／日曜・祝日）の見出しが列ごとに並ぶ、という2段見出しの表になっている
+ * ケースがある（例: 谷山行き（3列）｜鹿児島駅前行き（3列） の下に 平日|土曜|日祝|平日|土曜|日祝）。
+ * 一方で、方面の見出し列数がそのまま曜日区分の列数と一致し、曜日区分の切り替えが
+ * 行単位（同じ曜日区分の値が全列に並ぶ見出し行が時刻データ行の間に挟まる）で
+ * 表現されているページも存在する。
+ *
+ * どちらの構造にも対応できるよう、見出し行は colspan を考慮して列インデックスに
+ * 展開し、「列ごとの方面」と「列ごとの曜日区分」を別々に管理する。曜日区分の見出し行の
+ * 全セルが同じ値であれば行単位の切り替えとして機能し、列ごとに異なれば2段見出しとして
+ * 機能する（同じロジックで両方のケースを表現できる）。
  */
 function parseTimetable(html, stop, rosenId) {
   const $ = cheerio.load(html);
@@ -125,8 +131,24 @@ function parseTimetable(html, stop, rosenId) {
     return { stop, rosenId, directions, fetchedAt: new Date().toISOString() };
   }
 
-  let columnDirections = [];
-  let currentDayType = null;
+  // colspan を考慮して、見出し行のセルを列インデックスに展開する。
+  function expandRowByColspan(tr) {
+    const cols = [];
+    $(tr)
+      .find("td,th")
+      .each((_, cell) => {
+        const $cell = $(cell);
+        const text = $cell.text().trim();
+        const colspan = parseInt($cell.attr("colspan"), 10) || 1;
+        for (let i = 0; i < colspan; i++) cols.push(text);
+      });
+    return cols;
+  }
+
+  let columnDirections = []; // 列インデックス → 方面名（colspan展開済み）
+  let columnDayTypes = []; // 列インデックス → 曜日区分（colspan展開済み）
+  let haveDirections = false;
+  let haveDayTypes = false;
 
   $(table)
     .find("tr")
@@ -139,36 +161,49 @@ function parseTimetable(html, stop, rosenId) {
 
       // 見出し行（方面）
       if (cells.some((c) => DIRECTION_RE.test(c))) {
-        columnDirections = cells.map((c) => {
-          const m = c.match(DIRECTION_RE);
+        const expanded = expandRowByColspan(tr);
+        columnDirections = expanded.map((text) => {
+          const m = text.match(DIRECTION_RE);
           return m ? m[1] : null;
         });
         for (const d of columnDirections) {
           if (d && !directions[d]) directions[d] = { "平日": [], "土曜": [], "日祝": [] };
         }
+        haveDirections = true;
         return;
       }
 
-      // 見出し行（曜日区分）: セルのほぼ全てが曜日区分ラベルの場合、区切り行とみなす
+      // 見出し行（曜日区分）: セルのほぼ全てが曜日区分ラベルの場合、見出し行とみなす
       const dayMatches = cells.map((c) => DAY_TYPE_ALIASES.find((a) => a.pattern.test(c)));
       const nonEmptyCells = cells.filter((c) => c);
       if (
         nonEmptyCells.length > 0 &&
         dayMatches.filter(Boolean).length === nonEmptyCells.length
       ) {
-        currentDayType = dayMatches.find(Boolean).value;
+        const expanded = expandRowByColspan(tr);
+        columnDayTypes = expanded.map((text) => {
+          const found = DAY_TYPE_ALIASES.find((a) => a.pattern.test(text));
+          return found ? found.value : null;
+        });
+        haveDayTypes = true;
         return;
       }
 
       // データ行（時刻）
-      if (!currentDayType || columnDirections.length === 0) return;
+      if (!haveDirections || !haveDayTypes) return;
       cells.forEach((cellText, i) => {
-        const direction = columnDirections[i];
-        if (!direction) return;
+        // 列ごとの方面配列・曜日区分配列と、時刻データ行の列数がずれる場合
+        // （見出し行の colspan 展開結果とデータ行の実セル数が一致しないケース）に備えて、
+        // 配列長がデータ行より短ければ、同じ値の並びを繰り返して補う。
+        const direction =
+          columnDirections[i % Math.max(columnDirections.length, 1)] ?? null;
+        const dayType = columnDayTypes[i % Math.max(columnDayTypes.length, 1)] ?? null;
+        if (!direction || !dayType) return;
         const timeMatch = cellText.match(TIME_RE);
         if (!timeMatch) return;
         const [h, m] = timeMatch[1].split(":");
-        directions[direction][currentDayType].push({
+        if (!directions[direction]) directions[direction] = { "平日": [], "土曜": [], "日祝": [] };
+        directions[direction][dayType].push({
           time: `${h.padStart(2, "0")}:${m}`,
           lowFloor: Boolean(timeMatch[2]),
         });
@@ -222,6 +257,9 @@ async function main() {
   for (const [stop, rosenIds] of stopToRosenIds) {
     // 複数系統にまたがる停留所は、それぞれの系統の rosenId で取得し、
     // 方面（○○行き）ごとにまとめて 1 ファイルに統合する。
+    // 同じ方面・同じ時刻の重複はまとめ、時刻順に並べ替える
+    // （以前は Object.assign で方面ごと丸ごと上書きしてしまい、複数系統が
+    // 乗り入れる停留所でデータが失われるバグがあったため、時刻単位でマージする）。
     const merged = { stop, rosenId: rosenIds[0], directions: {}, fetchedAt: new Date().toISOString() };
     let anySuccess = false;
 
@@ -232,12 +270,32 @@ async function main() {
       try {
         const html = await fetchHtml(url);
         const parsed = parseTimetable(html, stop, rosenId);
-        Object.assign(merged.directions, parsed.directions);
+        for (const [direction, dayMap] of Object.entries(parsed.directions)) {
+          if (!merged.directions[direction]) {
+            merged.directions[direction] = { "平日": [], "土曜": [], "日祝": [] };
+          }
+          for (const dayType of ["平日", "土曜", "日祝"]) {
+            const existingTimes = new Set(merged.directions[direction][dayType].map((e) => e.time));
+            for (const entry of dayMap[dayType] || []) {
+              if (!existingTimes.has(entry.time)) {
+                merged.directions[direction][dayType].push(entry);
+                existingTimes.add(entry.time);
+              }
+            }
+          }
+        }
         anySuccess = true;
       } catch (err) {
         console.error(`[timetable] ${stop} (rosenId=${rosenId}) の取得に失敗しました:`, err.message);
       }
       await sleep(1500);
+    }
+
+    // 時刻順に並べ替える
+    for (const dayMap of Object.values(merged.directions)) {
+      for (const dayType of ["平日", "土曜", "日祝"]) {
+        dayMap[dayType].sort((a, b) => a.time.localeCompare(b.time));
+      }
     }
 
     if (anySuccess && Object.keys(merged.directions).length > 0) {
